@@ -1,0 +1,6 @@
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\bin\Debug\SBSort.exe.config
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\bin\Debug\SBSort.exe
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\bin\Debug\SBSort.pdb
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\obj\Debug\SBSort.exe
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\obj\Debug\SBSort.pdb
+c:\users\sburgara\documents\visual studio 2017\Projects\SBSort\SBSort\obj\Debug\SBSort.csprojResolveAssemblyReference.cache
