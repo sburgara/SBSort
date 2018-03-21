@@ -11,6 +11,7 @@ namespace SBSort
     {
         public Word[] list;
         private Node root;
+        public int timesToOrder = 0;
 
         public BinaryTreeSort(Word[] list)
         {
@@ -77,6 +78,7 @@ namespace SBSort
 
         private List<Word> inOrderTransversal(Node node, List<Word> resultList)
         {
+            timesToOrder++;
             if (node == null) return resultList;
             inOrderTransversal(node.leftNode, resultList);            
             resultList.Add(node.word);

@@ -19,6 +19,11 @@ namespace SBSort
             this.index = getIndex();
         }
 
+        public int getSizeOfWord()
+        {
+            return word.Length;
+        }
+
         public BigInteger getIndex()
         {
             BigInteger radix = BigInteger.Parse("10000000000000000000000000000000000000000");
@@ -63,7 +68,7 @@ namespace SBSort
             Word[] result = new Word[words.Length];
             foreach (string word in words)
             {
-                Word thisword = new Word(word);
+                Word thisword = new Word(word.Trim());
                 result[i++] = thisword;
             }
             return result;
