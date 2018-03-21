@@ -14,8 +14,6 @@ namespace SBSort
     {
         static void Main(string[] args)
         {
-
-            Dictionary<BigInteger, Word> dictionary = new Dictionary<BigInteger, Word>();
             
             List<BigInteger> listIndexes = new List<BigInteger>();
 
